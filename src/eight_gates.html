@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool Selector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #222;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .sidebar h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            width: 100%;
+            text-align: center;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            display: inline-block;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .sidebar ul li a:hover {
+            border: 2px solid #007bff;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+        .content {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .content h1 {
+            font-size: 2.5em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>_&gt; Gates &lt;_</h2>
+        <ul>
+            <li><a href="http://103.82.21.52:3456" target="_blank">Todos</a></li>
+            <li><a href="http://103.82.21.52:3000" target="_blank">Confluence</a></li>
+            <li><a href="http://103.82.21.52:8081" target="_blank">IT Tools</a></li>
+            <li><a href="http://103.82.21.52:5000" target="_blank">Kavita</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1>Welcome to our gates</h1>
+    </div>
+</body>
+</html>
