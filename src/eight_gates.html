@@ -6,7 +6,7 @@
     <title>Tool Selector</title>
     <link rel="icon" type="image/png" href="duonghao.png">
     <style>
-        * {
+                * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -64,6 +64,7 @@
         .content {
             flex-grow: 1;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             padding: 20px;
@@ -71,6 +72,14 @@
         .content h1 {
             font-size: 2.5em;
             color: #555;
+        }
+        .content pre {
+            font-family: Courier, monospace;
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+            font-weight: bold;
+
         }
     </style>
 </head>
@@ -87,6 +96,14 @@
     </div>
     <div class="content">
         <h1>Go and pick up your tools</h1>
+        <pre>
+ ____                          _   _            _____ _ _  _
+|  _ \ _   _  ___  _ __   __ _| | | | __ _  ___|___ // | || |
+| | | | | | |/ _ \| '_ \ / _` | |_| |/ _` |/ _ \ |_ \| | || |_
+| |_| | |_| | (_) | | | | (_| |  _  | (_| | (_) |__) | |__   _|
+|____/ \__,_|\___/|_| |_|\__, |_| |_|\__,_|\___/____/|_|  |_|
+                         |___/
+        </pre>
     </div>
 </body>
 </html>
